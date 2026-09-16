@@ -101,7 +101,7 @@ const navItems = [
 
         <ul class="menu p-0 gap-2">
           <li class="bg-base-100 rounded-lg shadow-md">
-            <a href="https://github.com/StacAttacc" target="_blank" rel="noopener" aria-label="GitHub" class="w-full tooltip tooltip-right text-base-content" :data-tip="isExpanded ? undefined : 'GitHub'">
+            <a href="https://github.com/dev-stacc" target="_blank" rel="noopener" aria-label="GitHub" class="w-full tooltip tooltip-right text-base-content" :data-tip="isExpanded ? undefined : 'GitHub'">
               <GithubIcon :size="18" />
               <span v-show="isExpanded" class="whitespace-nowrap">GitHub</span>
             </a>
@@ -139,7 +139,7 @@ const navItems = [
         <div class="bg-base-100 rounded-2xl h-full overflow-y-auto shadow-md">
           <slot />
           <div class="md:hidden flex justify-center gap-6 text-sm text-base-content/60 px-8 py-8 border-t border-base-200">
-            <a href="https://github.com/StacAttacc" target="_blank" rel="noopener" class="hover:text-base-content transition-colors">GitHub</a>
+            <a href="https://github.com/dev-stacc" target="_blank" rel="noopener" class="hover:text-base-content transition-colors">GitHub</a>
             <a href="https://linkedin.com/in/sensini-valitiana-506691383" target="_blank" rel="noopener" class="hover:text-base-content transition-colors">LinkedIn</a>
             <button class="hover:text-base-content transition-colors cursor-pointer" @click="copyEmail">{{ isCopied ? t('social.copied') : email }}</button>
           </div>

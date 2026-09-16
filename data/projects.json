@@ -7,7 +7,7 @@
     "descriptionFr": "Un projet d'équipe de 5 personnes réalisé sur 6 sprints hebdomadaires dans le cadre de notre cours de développement logiciel. Nous avons reconstruit OSE, la tristement célèbre plateforme de gestion des stages de notre cégep, de zéro. Les étudiants peuvent parcourir les offres et postuler, les employeurs publient des postes, et les coordinateurs et professeurs gèrent et suivent les étudiants tout au long de leur parcours de stage.",
     "stack": ["React", "Java", "Spring Boot", "PostgreSQL", "Docker"],
     "liveLink": "https://prose-jet.vercel.app",
-    "githubLink": "https://github.com/StacAttacc/Prose",
+    "githubLink": "https://github.com/dev-stacc/Prose",
     "isDeployed": true
   },
   {
@@ -18,7 +18,7 @@
     "descriptionFr": "Outil de gestion budgétaire développé lors d'un retour chez Enjoy Social (janvier–mai 2026). Saisissez les budgets trimestriels, les campagnes publicitaires et les dépenses et revenus quotidiens. Les données sont consultables sous forme de tableau ou de tableau de bord avec graphiques et cartes conçus avec des palettes adaptées aux personnes daltoniennes. Une page distincte utilise les données budgétaires passées pour prévoir les trimestres futurs, et un chatbot propulsé par Claude est disponible pour ceux qui préfèrent une interface conversationnelle.",
     "stack": ["Vue", "Nuxt", "TypeScript", "NeonDB", "Drizzle ORM", "Claude API"],
     "liveLink": "https://marketing-tool-one.vercel.app/",
-    "githubLink": "https://github.com/StacAttacc/marketing-tool",
+    "githubLink": "https://github.com/dev-stacc/marketing-tool",
     "isDeployed": true
   },
   {
@@ -29,7 +29,7 @@
     "descriptionFr": "Un gestionnaire de projets de couture construit pour faciliter le suivi de mes propres projets de couture, réimplémenté depuis Sewing Assistant avec une pile technique différente. Chaque projet prend en charge plusieurs vêtements, vous pouvez donc suivre les tenues d'une équipe entière au même endroit. Les patrons peuvent être téléchargés, extraits du web ou générés avec l'API Claude. La progression est suivie via des photos et des listes de contrôle, et les mesures sont gérées dans des ensembles réutilisables inspirés de FreeSewing.",
     "stack": ["React", "Next.js", "TypeScript", "NeonDB", "Drizzle ORM", "Claude API"],
     "liveLink": "https://next-stitch-henna.vercel.app/",
-    "githubLink": "https://github.com/StacAttacc/NextStitch",
+    "githubLink": "https://github.com/dev-stacc/NextStitch",
     "isDeployed": true
   },
   {
@@ -40,7 +40,7 @@
     "descriptionFr": "Calculateur public de retenues à la source pour la paie québécoise, basé sur la méthode des formules (T4127 / TP-1015.F) — l'alternative aux tables de retenues reconnue par l'ARC et Revenu Québec. Calcule RRQ (palier 1 & 2), AE, RQAP, impôt fédéral et provincial, et les cotisations employeur pour toute période de paie. Les jeux de taux sont gérés via une interface d'administration et stockés dans SQL Server. Déployé sur un cluster Kubernetes auto-hébergé via Tailscale Funnel.",
     "stack": ["Angular", "TypeScript", "C#", ".NET", "SQL Server", "Kubernetes"],
     "liveLink": "https://open-payrun.vercel.app",
-    "githubLink": "https://github.com/StacAttacc/OpenPayrun",
+    "githubLink": "https://github.com/dev-stacc/OpenPayrun",
     "isDeployed": true
   },
   {
@@ -51,7 +51,7 @@
     "descriptionFr": "Outil interne de gestion de paie développé lors d'un stage chez Services Conseils Sensaroli Inc. Conçu pour remplacer QuickBooks dans la gestion de la paie en interne. Gère les calculs de taxes et conserve un historique complet des paiements, enregistrant chaque versement avec l'employé, la date et le montant. Développé avec un backend C# .NET, un frontend Angular et SQL Server comme base de données.",
     "stack": ["Angular", "TypeScript", "C#", ".NET", "SQL Server"],
     "liveLink": "",
-    "githubLink": "https://github.com/StacAttacc/payroll",
+    "githubLink": "https://github.com/dev-stacc/payroll",
     "isDeployed": false
   },
   {
@@ -62,7 +62,7 @@
     "descriptionFr": "En cours. Une application de récapitulatif open source style Spotify Wrapped pour Archive of Our Own. Les lecteurs peuvent voir leurs statistiques de lecture annuelles, leurs fandoms favoris, leurs auteurs les plus lus, et plus encore. Actuellement développée avec React et Django, avec une migration prévue vers Nuxt ou Next.js.",
     "stack": ["React", "Django", "Python"],
     "liveLink": "",
-    "githubLink": "https://github.com/StacAttacc/ao3-wrapped",
+    "githubLink": "https://github.com/dev-stacc/ao3-wrapped",
     "isDeployed": false
   },
   {
@@ -73,7 +73,7 @@
     "descriptionFr": "Un homelab NixOS + k3s construit à partir de matériel de récupération en apprenant ce qu'est réellement l'infrastructure sous le capot. Chaque hôte est déclaré dans un Nix flake avec home-manager, déployé à distance via colmena. Le cluster k3s exécute un workflow GitOps via Flux avec des secrets chiffrés SOPS, Vault pour les secrets d'exécution via external-secrets-operator, et Authentik pour le SSO sur tous les services auto-hébergés. La plupart des services sont accessibles uniquement via le tailnet, avec le backend de Prose exposé publiquement via Tailscale Funnel.",
     "stack": ["NixOS", "k3s", "Flux", "SOPS", "Vault", "Authentik", "Tailscale", "Grafana"],
     "liveLink": "",
-    "githubLink": "https://github.com/StacAttacc/BiggerWorld",
+    "githubLink": "https://github.com/dev-stacc/BiggerWorld",
     "isDeployed": true
   }
 ]
