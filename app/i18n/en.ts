@@ -28,8 +28,8 @@ export default {
     cvFile: '/SensiniValitianaCV_EN.pdf',
     bio: {
       p1: "I'm a developer who likes working with computers, whether that's software or hardware. I enjoy the whole process, from writing the code to figuring out the infrastructure it runs on.",
-      p2: "I took a freelance contract with Services Conseils Sensaroli Inc. where I built an internal payroll management tool to replace QuickBooks, later opened up as OpenPayrun so anyone running payroll in Quebec can use it. I worked at Enjoy Social from December 2024 to December 2025 building the first prototypes of their main app — starting with React Native, then moving to Nuxt. I went back from January to May 2026 to build an internal tool for managing their ad campaign budgets.",
-      p3: "I run a personal Kubernetes homelab built from spare hardware, host my own services, and work on side projects that scratch my own itches.",
+      p2: "I took a freelance contract with Services Conseils Sensaroli Inc. where I built an internal payroll management tool to replace QuickBooks, later opened up as OpenPayrun so anyone running payroll in Quebec can use it. I was at EnJoySocial from December 2024 to May 2026, building the first prototypes of their main app, starting with React Native and then moving to Nuxt, and later an internal tool for managing their ad campaign budgets.",
+      p3: "I run a personal Kubernetes homelab built from old hardware I refurbished myself, host my own services, and work on side projects that scratch my own itches.",
     },
     skills: {
       languages: 'Languages',
@@ -41,7 +41,7 @@ export default {
     },
     meta: {
       title: 'About — Sensini Valitiana',
-      description: 'Full-stack developer with experience in web apps and self-hosted infrastructure. Interned at EnJoySocial and Services Conseils Sensaroli Inc.',
+      description: 'Full-stack developer with experience in web apps and self-hosted infrastructure. Internship at EnJoySocial and a freelance contract with Services Conseils Sensaroli Inc.',
     },
   },
   projects: {
