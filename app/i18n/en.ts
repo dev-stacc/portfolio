@@ -28,7 +28,7 @@ export default {
     cvFile: '/SensiniValitianaCV_EN.pdf',
     bio: {
       p1: "I'm a developer who likes working with computers, whether that's software or hardware. I enjoy the whole process, from writing the code to figuring out the infrastructure it runs on.",
-      p2: "I did a 3 month internship at Services Conseils Sensaroli Inc. where I built an internal payroll management tool to replace QuickBooks. I worked at Enjoy Social from December 2024 to December 2025 building the first prototypes of their main app — starting with React Native, then moving to Nuxt. I went back from January to May 2026 to build an internal tool for managing their ad campaign budgets.",
+      p2: "I took a freelance contract with Services Conseils Sensaroli Inc. where I built an internal payroll management tool to replace QuickBooks, later opened up as OpenPayrun so anyone running payroll in Quebec can use it. I worked at Enjoy Social from December 2024 to December 2025 building the first prototypes of their main app — starting with React Native, then moving to Nuxt. I went back from January to May 2026 to build an internal tool for managing their ad campaign budgets.",
       p3: "I run a personal Kubernetes homelab built from spare hardware, host my own services, and work on side projects that scratch my own itches.",
     },
     skills: {

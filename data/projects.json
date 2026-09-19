@@ -5,7 +5,13 @@
     "shortDescriptionFr": "Projet d'équipe en classe : plateforme de gestion des stages pour étudiants, employeurs, professeurs et coordinateurs. Publiez des offres, gérez les candidatures, suivez le parcours des étudiants.",
     "description": "A 5-person class team project built over 6 weekly sprints for our software development class. We rebuilt OSE, our cegep's infamously clunky internship management platform, from the ground up. Students can browse and apply to offers, employers post positions, and coordinators and professors manage and track students throughout their internship journey.",
     "descriptionFr": "Un projet d'équipe de 5 personnes réalisé sur 6 sprints hebdomadaires dans le cadre de notre cours de développement logiciel. Nous avons reconstruit OSE, la tristement célèbre plateforme de gestion des stages de notre cégep, de zéro. Les étudiants peuvent parcourir les offres et postuler, les employeurs publient des postes, et les coordinateurs et professeurs gèrent et suivent les étudiants tout au long de leur parcours de stage.",
-    "stack": ["React", "Java", "Spring Boot", "PostgreSQL", "Docker"],
+    "stack": [
+      "React",
+      "Java",
+      "Spring Boot",
+      "PostgreSQL",
+      "Docker"
+    ],
     "liveLink": "https://prose-jet.vercel.app",
     "githubLink": "https://github.com/dev-stacc/Prose",
     "isDeployed": true
@@ -16,7 +22,14 @@
     "shortDescriptionFr": "Gestionnaire de budget marketing pour le suivi des dépenses trimestrielles, des revenus et de la croissance. Enregistrez des campagnes pub, visualisez les données avec des graphiques et tableaux de bord, prédisez les budgets futurs et gérez vos données via un chatbot Claude.",
     "description": "Budget management tool built during a return engagement at Enjoy Social (January–May 2026). Input quarterly budgets, ad campaigns, and day-to-day spending and revenue. Data is viewable in a table or a dashboard with charts and cards designed with colorblind-friendly palettes. A separate page uses past budget data to forecast future quarters, and a Claude-powered chatbot is available for those who prefer a conversational interface.",
     "descriptionFr": "Outil de gestion budgétaire développé lors d'un retour chez Enjoy Social (janvier–mai 2026). Saisissez les budgets trimestriels, les campagnes publicitaires et les dépenses et revenus quotidiens. Les données sont consultables sous forme de tableau ou de tableau de bord avec graphiques et cartes conçus avec des palettes adaptées aux personnes daltoniennes. Une page distincte utilise les données budgétaires passées pour prévoir les trimestres futurs, et un chatbot propulsé par Claude est disponible pour ceux qui préfèrent une interface conversationnelle.",
-    "stack": ["Vue", "Nuxt", "TypeScript", "NeonDB", "Drizzle ORM", "Claude API"],
+    "stack": [
+      "Vue",
+      "Nuxt",
+      "TypeScript",
+      "NeonDB",
+      "Drizzle ORM",
+      "Claude API"
+    ],
     "liveLink": "https://marketing-tool-one.vercel.app/",
     "githubLink": "https://github.com/dev-stacc/marketing-tool",
     "isDeployed": true
@@ -27,32 +40,35 @@
     "shortDescriptionFr": "Gestionnaire de projets de couture pour particuliers et groupes. Planifiez les patrons et matériaux, suivez la progression avec photos et listes de contrôle, gérez les mesures, générez des patrons avec Claude et trouvez les magasins de tissus à proximité.",
     "description": "A sewing project manager built to make keeping track of my own sewing projects easier, later reimplemented from Sewing Assistant with a different stack. Each project supports multiple garments, so you can track outfits for a whole team in one place. Patterns can be uploaded, scraped from the web, or generated with the Claude API. Materials follow the same flow minus the generation. Progress is tracked through photos and checklists, and measurements are managed in reusable FreeSewing-inspired measurement sets.",
     "descriptionFr": "Un gestionnaire de projets de couture construit pour faciliter le suivi de mes propres projets de couture, réimplémenté depuis Sewing Assistant avec une pile technique différente. Chaque projet prend en charge plusieurs vêtements, vous pouvez donc suivre les tenues d'une équipe entière au même endroit. Les patrons peuvent être téléchargés, extraits du web ou générés avec l'API Claude. La progression est suivie via des photos et des listes de contrôle, et les mesures sont gérées dans des ensembles réutilisables inspirés de FreeSewing.",
-    "stack": ["React", "Next.js", "TypeScript", "NeonDB", "Drizzle ORM", "Claude API"],
+    "stack": [
+      "React",
+      "Next.js",
+      "TypeScript",
+      "NeonDB",
+      "Drizzle ORM",
+      "Claude API"
+    ],
     "liveLink": "https://next-stitch-henna.vercel.app/",
     "githubLink": "https://github.com/dev-stacc/NextStitch",
     "isDeployed": true
   },
   {
     "title": "OpenPayrun",
-    "shortDescription": "Open-source Quebec payroll deductions calculator. Computes QPP, EI, QPIP, and federal + provincial income tax using the official CRA and Revenu Québec formula method.",
-    "shortDescriptionFr": "Calculateur open-source de retenues à la source pour la paie québécoise. Calcule RRQ, AE, RQAP et l'impôt fédéral et provincial selon la méthode des formules officielle de l'ARC et Revenu Québec.",
-    "description": "A public Quebec payroll deductions calculator built on the formula method (T4127 / TP-1015.F) — the CRA and Revenu Québec approved alternative to payroll tables. Computes QPP (tier 1 & 2), EI, QPIP, federal and provincial income tax, and employer contributions for any pay period. Rate sets are managed through an admin UI and stored in SQL Server. Deployed on a self-hosted Kubernetes cluster via Tailscale Funnel.",
-    "descriptionFr": "Calculateur public de retenues à la source pour la paie québécoise, basé sur la méthode des formules (T4127 / TP-1015.F) — l'alternative aux tables de retenues reconnue par l'ARC et Revenu Québec. Calcule RRQ (palier 1 & 2), AE, RQAP, impôt fédéral et provincial, et les cotisations employeur pour toute période de paie. Les jeux de taux sont gérés via une interface d'administration et stockés dans SQL Server. Déployé sur un cluster Kubernetes auto-hébergé via Tailscale Funnel.",
-    "stack": ["Angular", "TypeScript", "C#", ".NET", "SQL Server", "Kubernetes"],
+    "shortDescription": "Open-source Quebec payroll deductions calculator, free for anyone running payroll in Quebec. Computes QPP, EI, QPIP and federal + provincial income tax using the official CRA and Revenu Québec formula method. Started as an internal tool built to replace a client's QuickBooks workflow.",
+    "shortDescriptionFr": "Calculateur open-source de retenues à la source pour la paie québécoise, gratuit pour quiconque gère une paie au Québec. Calcule RRQ, AE, RQAP et l'impôt fédéral et provincial selon la méthode des formules officielle de l'ARC et Revenu Québec. Né d'un outil interne conçu pour remplacer le flux QuickBooks d'un client.",
+    "description": "A public Quebec payroll deductions calculator, open source so anyone paying employees in Quebec can use it. It began as an internal payroll tool built on a freelance contract for Services Conseils Sensaroli Inc. to replace QuickBooks, handling tax calculations and keeping a full payment history of who was paid, when and how much. The public version is built on the formula method (T4127 / TP-1015.F), the CRA and Revenu Québec approved alternative to payroll tables, and computes QPP (tier 1 & 2), EI, QPIP, federal and provincial income tax, and employer contributions for any pay period. Rate sets are managed through an admin UI and stored in SQL Server. Deployed on a self-hosted Kubernetes cluster via Tailscale Funnel.",
+    "descriptionFr": "Un calculateur public de retenues à la source pour la paie québécoise, open source pour que toute personne qui paie des employés au Québec puisse l'utiliser. Il est né d'un outil de paie interne développé en contrat freelance pour Services Conseils Sensaroli Inc. afin de remplacer QuickBooks, gérant les calculs de taxes et conservant un historique complet des versements : qui a été payé, quand et combien. La version publique repose sur la méthode des formules (T4127 / TP-1015.F), l'alternative aux tables de retenues reconnue par l'ARC et Revenu Québec, et calcule RRQ (palier 1 & 2), AE, RQAP, l'impôt fédéral et provincial, et les cotisations employeur pour toute période de paie. Les jeux de taux sont gérés via une interface d'administration et stockés dans SQL Server. Déployé sur un cluster Kubernetes auto-hébergé via Tailscale Funnel.",
+    "stack": [
+      "Angular",
+      "TypeScript",
+      "C#",
+      ".NET",
+      "SQL Server",
+      "Kubernetes"
+    ],
     "liveLink": "https://open-payrun.vercel.app",
     "githubLink": "https://github.com/dev-stacc/OpenPayrun",
     "isDeployed": true
-  },
-  {
-    "title": "Payroll",
-    "shortDescription": "Internal payroll management tool built on a freelance contract for Services Conseils Sensaroli Inc. to replace QuickBooks. Handles tax calculations and tracks every payment: who was paid, when, and how much.",
-    "shortDescriptionFr": "Outil interne de gestion de paie développé en contrat freelance pour Services Conseils Sensaroli Inc. pour remplacer QuickBooks. Gère les calculs de taxes et trace chaque paiement : qui a été payé, quand et combien.",
-    "description": "Internal payroll management tool built on a freelance contract for Services Conseils Sensaroli Inc. Designed to replace QuickBooks for managing employee payroll in-house. Handles tax calculations and keeps a full payment history, logging each pay run with the employee, date, and amount. Built with a C# .NET backend, an Angular frontend, and SQL Server as the database.",
-    "descriptionFr": "Outil interne de gestion de paie développé en contrat freelance pour Services Conseils Sensaroli Inc. Conçu pour remplacer QuickBooks dans la gestion de la paie en interne. Gère les calculs de taxes et conserve un historique complet des paiements, enregistrant chaque versement avec l'employé, la date et le montant. Développé avec un backend C# .NET, un frontend Angular et SQL Server comme base de données.",
-    "stack": ["Angular", "TypeScript", "C#", ".NET", "SQL Server"],
-    "liveLink": "",
-    "githubLink": "https://github.com/dev-stacc/payroll",
-    "isDeployed": false
   },
   {
     "title": "AO3 Wrapped",
@@ -60,7 +76,11 @@
     "shortDescriptionFr": "Une application de récapitulatif annuel style Spotify Wrapped pour l'historique de lecture sur Archive of Our Own.",
     "description": "In progress. An open source Spotify Wrapped-style recap app for Archive of Our Own. Readers can see their year in reading stats, top fandoms, most-read authors, and more. Currently built with React and Django, with a planned migration to Nuxt or Next.js for simpler Vercel deployment.",
     "descriptionFr": "En cours. Une application de récapitulatif open source style Spotify Wrapped pour Archive of Our Own. Les lecteurs peuvent voir leurs statistiques de lecture annuelles, leurs fandoms favoris, leurs auteurs les plus lus, et plus encore. Actuellement développée avec React et Django, avec une migration prévue vers Nuxt ou Next.js.",
-    "stack": ["React", "Django", "Python"],
+    "stack": [
+      "React",
+      "Django",
+      "Python"
+    ],
     "liveLink": "",
     "githubLink": "https://github.com/dev-stacc/ao3-wrapped",
     "isDeployed": false
@@ -71,7 +91,16 @@
     "shortDescriptionFr": "Un homelab Kubernetes personnel construit à partir de matériel de récupération. Chaque hôte déclaré dans un Nix flake, chaque workload livré par Flux, chaque secret chiffré avec SOPS.",
     "description": "A NixOS + k3s homelab built from spare and second-hand hardware while teaching myself what infrastructure actually looks like under the hood. Every host is declared in a Nix flake with home-manager, deployed remotely via colmena. The k3s cluster runs a GitOps workflow through Flux with SOPS-encrypted secrets, Vault for runtime secrets via external-secrets-operator, and Authentik for SSO across all self-hosted services. Most services are tailnet-only, with the Prose backend publicly exposed via Tailscale Funnel.",
     "descriptionFr": "Un homelab NixOS + k3s construit à partir de matériel de récupération en apprenant ce qu'est réellement l'infrastructure sous le capot. Chaque hôte est déclaré dans un Nix flake avec home-manager, déployé à distance via colmena. Le cluster k3s exécute un workflow GitOps via Flux avec des secrets chiffrés SOPS, Vault pour les secrets d'exécution via external-secrets-operator, et Authentik pour le SSO sur tous les services auto-hébergés. La plupart des services sont accessibles uniquement via le tailnet, avec le backend de Prose exposé publiquement via Tailscale Funnel.",
-    "stack": ["NixOS", "k3s", "Flux", "SOPS", "Vault", "Authentik", "Tailscale", "Grafana"],
+    "stack": [
+      "NixOS",
+      "k3s",
+      "Flux",
+      "SOPS",
+      "Vault",
+      "Authentik",
+      "Tailscale",
+      "Grafana"
+    ],
     "liveLink": "",
     "githubLink": "https://github.com/dev-stacc/BiggerWorld",
     "isDeployed": true

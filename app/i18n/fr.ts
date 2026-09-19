@@ -28,7 +28,7 @@ export default {
     cvFile: '/SensiniValitianaCV_FR.pdf',
     bio: {
       p1: "Je suis un développeur qui aime travailler avec les ordinateurs, que ce soit avec du logiciel ou du matériel. J'apprécie tout le processus, de l'écriture du code à la mise en place de l'infrastructure sur laquelle il tourne.",
-      p2: "J'ai effectué un stage de 3 mois chez Services Conseils Sensaroli Inc. où j'ai développé un outil interne de gestion de paie pour remplacer QuickBooks. J'ai travaillé chez Enjoy Social de décembre 2024 à décembre 2025 en construisant les premiers prototypes de leur application principale — en commençant par React Native, puis en passant à Nuxt. Je suis retourné de janvier à mai 2026 pour développer un outil interne de gestion de budget pour leurs campagnes publicitaires.",
+      p2: "J'ai réalisé un contrat freelance pour Services Conseils Sensaroli Inc. où j'ai développé un outil interne de gestion de paie pour remplacer QuickBooks, ouvert par la suite sous le nom d'OpenPayrun pour quiconque gère une paie au Québec. J'ai travaillé chez Enjoy Social de décembre 2024 à décembre 2025 en construisant les premiers prototypes de leur application principale — en commençant par React Native, puis en passant à Nuxt. Je suis retourné de janvier à mai 2026 pour développer un outil interne de gestion de budget pour leurs campagnes publicitaires.",
       p3: "Je maintiens un homelab Kubernetes personnel construit à partir de matériel de récupération, j'héberge mes propres services et je travaille sur des projets qui répondent à mes propres besoins.",
     },
     skills: {
