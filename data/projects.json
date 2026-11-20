@@ -90,7 +90,7 @@
     "isDeployed": false
   },
   {
-    "title": "BiggerWorld",
+    "title": "Small World",
     "shortDescription": "A personal homelab cluster built from old hardware I refurbished myself. Every host declared in a Nix flake, every workload delivered by Flux, every secret encrypted with SOPS.",
     "shortDescriptionFr": "Un homelab Kubernetes personnel construit à partir de vieux matériel que j'ai remis en état. Chaque hôte déclaré dans un Nix flake, chaque workload livré par Flux, chaque secret chiffré avec SOPS.",
     "description": "A NixOS + k3s homelab built from old hardware I refurbished myself while teaching myself what infrastructure actually looks like under the hood. Every host is declared in a Nix flake with home-manager, deployed remotely via colmena. The k3s cluster runs a GitOps workflow through Flux with SOPS-encrypted secrets, Vault for runtime secrets via external-secrets-operator, and Authentik for SSO across all self-hosted services. Most services are tailnet-only, with the Prose backend publicly exposed via Tailscale Funnel.",
@@ -129,7 +129,7 @@
     "isDeployed": false
   },
   {
-    "title": "BiggerWorld Search",
+    "title": "Small World Search",
     "shortDescription": "Search frontend for the 4get metasearch instance running on my homelab cluster. Queries 4get's JSON API server-side and renders its own UI, so the backend needs no ingress of its own.",
     "shortDescriptionFr": "Interface de recherche pour l'instance 4get qui tourne sur mon cluster homelab. Interroge l'API JSON de 4get côté serveur et affiche sa propre interface, ce qui évite d'exposer le backend.",
     "description": "A Next.js search frontend for the 4get metasearch instance running in my homelab cluster. It calls 4get's versioned /api/v1 JSON API server-side and renders its own UI, so there is no fork of 4get and no scraping of its HTML. Image thumbnails are fetched through a server-side proxy route that forwards to 4get's own proxy, which means nothing on a result page makes the browser contact an upstream image host and 4get can stay cluster-internal with no ingress at all. Web and image verticals are wired; the remaining ones render as inactive tabs. Served over the tailnet.",
@@ -147,7 +147,7 @@
     "isDeployed": true
   },
   {
-    "title": "BiggerWorld Homepage",
+    "title": "Small World Homepage",
     "shortDescription": "Status dashboard for my homelab cluster, deliberately running outside it. Host metrics, Flux state, backups and Kubernetes views, authenticated by Tailscale identity.",
     "shortDescriptionFr": "Tableau de bord d'état de mon cluster homelab, volontairement hébergé en dehors de celui-ci. Métriques des hôtes, état de Flux, sauvegardes et vues Kubernetes, authentifiés par l'identité Tailscale.",
     "description": "A Next.js dashboard for my homelab, built around one constraint: a dashboard inside the cluster cannot report that the cluster is down. Grafana, Loki and Prometheus all run in k3s, so this runs as a podman container on a separate host and never takes an in-cluster runtime dependency. That constraint drives the rest of the design. Authentication is Tailscale serve identity rather than Authentik, secrets arrive from sops-nix through systemd credentials rather than from Vault at runtime, and host metrics come from per-host stat agents over the tailnet that each keep a rolling window, so the charts survive a cluster outage. The Flux, backup and Kubernetes views double as deep-link targets for ntfy alerts.",
