@@ -143,7 +143,7 @@
       "Tailscale"
     ],
     "liveLink": "",
-    "githubLink": "https://github.com/dev-stacc/BiggerWorldSearch",
+    "githubLink": "https://github.com/dev-stacc/SmallWorldSearch",
     "isDeployed": true
   },
   {
@@ -161,7 +161,7 @@
       "Tailscale"
     ],
     "liveLink": "",
-    "githubLink": "",
+    "githubLink": "https://github.com/dev-stacc/SmallWorldHomepage",
     "isDeployed": true
   }
 ]
