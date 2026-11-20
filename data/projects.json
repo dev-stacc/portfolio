@@ -26,7 +26,7 @@
       "Vue",
       "Nuxt",
       "TypeScript",
-      "NeonDB",
+      "PGlite",
       "Drizzle ORM",
       "Claude API"
     ],
@@ -35,11 +35,11 @@
     "isDeployed": true
   },
   {
-    "title": "Next Stitch",
+    "title": "Sewing Assistant (Next.js)",
     "shortDescription": "Sewing project manager for individuals and groups. Plan patterns and materials, track progress with photos and checklists, manage measurements, generate patterns with Claude, and find nearby fabric stores.",
     "shortDescriptionFr": "Gestionnaire de projets de couture pour particuliers et groupes. Planifiez les patrons et matériaux, suivez la progression avec photos et listes de contrôle, gérez les mesures, générez des patrons avec Claude et trouvez les magasins de tissus à proximité.",
-    "description": "A sewing project manager built to make keeping track of my own sewing projects easier, later reimplemented from Sewing Assistant with a different stack. Each project supports multiple garments, so you can track outfits for a whole team in one place. Patterns can be uploaded, scraped from the web, or generated with the Claude API. Materials follow the same flow minus the generation. Progress is tracked through photos and checklists, and measurements are managed in reusable FreeSewing-inspired measurement sets.",
-    "descriptionFr": "Un gestionnaire de projets de couture construit pour faciliter le suivi de mes propres projets de couture, réimplémenté depuis Sewing Assistant avec une pile technique différente. Chaque projet prend en charge plusieurs vêtements, vous pouvez donc suivre les tenues d'une équipe entière au même endroit. Les patrons peuvent être téléchargés, extraits du web ou générés avec l'API Claude. La progression est suivie via des photos et des listes de contrôle, et les mesures sont gérées dans des ensembles réutilisables inspirés de FreeSewing.",
+    "description": "A sewing project manager built to make keeping track of my own sewing projects easier, a reimplementation of the original React and FastAPI version on a single-stack Next.js codebase. Each project supports multiple garments, so you can track outfits for a whole team in one place. Patterns can be uploaded, scraped from the web, or generated with the Claude API. Materials follow the same flow minus the generation. Progress is tracked through photos and checklists, and measurements are managed in reusable FreeSewing-inspired measurement sets.",
+    "descriptionFr": "Un gestionnaire de projets de couture construit pour faciliter le suivi de mes propres projets de couture, une réimplémentation de la version originale React et FastAPI sur une seule base de code Next.js. Chaque projet prend en charge plusieurs vêtements, vous pouvez donc suivre les tenues d'une équipe entière au même endroit. Les patrons peuvent être téléchargés, extraits du web ou générés avec l'API Claude. La progression est suivie via des photos et des listes de contrôle, et les mesures sont gérées dans des ensembles réutilisables inspirés de FreeSewing.",
     "stack": [
       "React",
       "Next.js",
@@ -51,6 +51,25 @@
     "liveLink": "https://next-stitch-henna.vercel.app/",
     "githubLink": "https://github.com/dev-stacc/NextStitch",
     "isDeployed": true
+  },
+  {
+    "title": "Sewing Assistant (React/FastAPI)",
+    "shortDescription": "The original sewing project manager: plan patterns and materials, pull listings straight from pattern and fabric shops, draft patterns to PDF with Claude, keep reusable measurement sets, and find fabric stores on a map.",
+    "shortDescriptionFr": "Le gestionnaire de projets de couture original : planifiez patrons et matériaux, importez des fiches directement depuis les boutiques de patrons et de tissus, générez des patrons en PDF avec Claude, conservez des ensembles de mesures réutilisables et trouvez les magasins de tissus sur une carte.",
+    "description": "The first version of my sewing project manager, built to make sourcing patterns and materials for a project less tedious. A React frontend on Vite talks to a FastAPI backend over a plain REST API, with SQLite for storage. Patterns and materials can be entered by hand, uploaded, scraped from the shops I actually buy from, or generated: Claude drafts the pattern and ReportLab renders it to a printable PDF. Projects carry checklists, progress photos and a budget, measurements live in reusable sets, and nearby fabric stores are plotted on a Leaflet map. Later reimplemented as a single Next.js codebase.",
+    "descriptionFr": "La première version de mon gestionnaire de projets de couture, conçue pour rendre moins pénible la recherche de patrons et de matériaux. Un frontend React sur Vite communique avec un backend FastAPI via une API REST classique, avec SQLite pour le stockage. Les patrons et les matériaux peuvent être saisis à la main, téléversés, extraits des boutiques où j'achète réellement, ou générés : Claude rédige le patron et ReportLab le rend en PDF imprimable. Les projets comportent des listes de contrôle, des photos de progression et un budget, les mesures sont regroupées en ensembles réutilisables, et les magasins de tissus à proximité sont affichés sur une carte Leaflet. Réimplémenté par la suite en une seule base de code Next.js.",
+    "stack": [
+      "React",
+      "Vite",
+      "JavaScript",
+      "Python",
+      "FastAPI",
+      "SQLite",
+      "Claude API"
+    ],
+    "liveLink": "",
+    "githubLink": "https://github.com/dev-stacc/SewingAssistant",
+    "isDeployed": false
   },
   {
     "title": "OpenPayrun",
