@@ -9,11 +9,11 @@ useSeoMeta({
 })
 
 const languages = ['TypeScript', 'JavaScript', 'Python', 'Java', 'C#', 'SQL']
-const frontend = ['React', 'Next.js', 'Vue', 'Nuxt', 'Angular', 'Tailwind CSS']
+const frontend = ['React', 'Next.js', 'Vue', 'Nuxt', 'Angular', 'Tailwind CSS', 'HTML/CSS']
 const backend = ['Spring Boot', 'FastAPI', '.NET', 'Node.js']
-const databases = ['PostgreSQL', 'NeonDB', 'SQL Server']
-const infrastructure = ['NixOS', 'Kubernetes', 'Docker', 'Flux', 'Tailscale']
-const other = ['Drizzle ORM', 'Claude API', 'Git']
+const databases = ['PostgreSQL', 'Supabase', 'NeonDB', 'SQL Server', 'EF Core']
+const infrastructure = ['NixOS', 'Linux', 'Kubernetes', 'Docker', 'Flux', 'Terraform', 'Tailscale', 'Azure', 'Vercel']
+const other = ['Drizzle ORM', 'Claude API', 'Git', 'CI/CD']
 </script>
 
 <template>

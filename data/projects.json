@@ -56,30 +56,34 @@
     "title": "OpenPayrun",
     "shortDescription": "Open-source Quebec payroll deductions calculator, free for anyone running payroll in Quebec. Computes QPP, EI, QPIP and federal + provincial income tax using the official CRA and Revenu Québec formula method. Started as an internal tool built to replace a client's QuickBooks workflow.",
     "shortDescriptionFr": "Calculateur open-source de retenues à la source pour la paie québécoise, gratuit pour quiconque gère une paie au Québec. Calcule RRQ, AE, RQAP et l'impôt fédéral et provincial selon la méthode des formules officielle de l'ARC et Revenu Québec. Né d'un outil interne conçu pour remplacer le flux QuickBooks d'un client.",
-    "description": "A public Quebec payroll deductions calculator, open source so anyone paying employees in Quebec can use it. It began as an internal payroll tool built on a freelance contract for Services Conseils Sensaroli Inc. to replace QuickBooks, handling tax calculations and keeping a full payment history of who was paid, when and how much. The public version is built on the formula method (T4127 / TP-1015.F), the CRA and Revenu Québec approved alternative to payroll tables, and computes QPP (tier 1 & 2), EI, QPIP, federal and provincial income tax, and employer contributions for any pay period. Rate sets are managed through an admin UI and stored in SQL Server. It runs in production on Azure, a single Container App backed by Azure SQL, on the client's own domain and open for anyone to use.",
-    "descriptionFr": "Un calculateur public de retenues à la source pour la paie québécoise, open source pour que toute personne qui paie des employés au Québec puisse l'utiliser. Il est né d'un outil de paie interne développé en contrat freelance pour Services Conseils Sensaroli Inc. afin de remplacer QuickBooks, gérant les calculs de taxes et conservant un historique complet des versements : qui a été payé, quand et combien. La version publique repose sur la méthode des formules (T4127 / TP-1015.F), l'alternative aux tables de retenues reconnue par l'ARC et Revenu Québec, et calcule RRQ (palier 1 & 2), AE, RQAP, l'impôt fédéral et provincial, et les cotisations employeur pour toute période de paie. Les jeux de taux sont gérés via une interface d'administration et stockés dans SQL Server. Il tourne en production sur Azure, une seule Container App appuyée sur Azure SQL, sur le domaine du client et ouvert à tous.",
+    "description": "A public Quebec payroll deductions calculator, open source so anyone paying employees in Quebec can use it. It began as an internal payroll tool built on a freelance contract for Services Conseils Sensaroli Inc. to replace QuickBooks, handling tax calculations and keeping a full payment history of who was paid, when and how much. The public version is built on the formula method (T4127 / TP-1015.F), the CRA and Revenu Québec approved alternative to payroll tables, and computes QPP (tier 1 & 2), EI, QPIP, federal and provincial income tax, and employer contributions for any pay period. Rate sets are managed through an admin UI and stored in SQL Server. It ran in production on Azure for the client, a single Container App backed by Azure SQL. That infrastructure has since been decommissioned, but the repo ships the Terraform and the multi-arch container images needed to stand it back up.",
+    "descriptionFr": "Un calculateur public de retenues à la source pour la paie québécoise, open source pour que toute personne qui paie des employés au Québec puisse l'utiliser. Il est né d'un outil de paie interne développé en contrat freelance pour Services Conseils Sensaroli Inc. afin de remplacer QuickBooks, gérant les calculs de taxes et conservant un historique complet des versements : qui a été payé, quand et combien. La version publique repose sur la méthode des formules (T4127 / TP-1015.F), l'alternative aux tables de retenues reconnue par l'ARC et Revenu Québec, et calcule RRQ (palier 1 & 2), AE, RQAP, l'impôt fédéral et provincial, et les cotisations employeur pour toute période de paie. Les jeux de taux sont gérés via une interface d'administration et stockés dans SQL Server. Il a tourné en production sur Azure pour le client, une seule Container App appuyée sur Azure SQL. Cette infrastructure a depuis été démantelée, mais le dépôt fournit le Terraform et les images de conteneur multi-arch nécessaires pour la remettre en ligne.",
     "stack": [
       "Angular",
       "TypeScript",
       "C#",
       ".NET",
       "SQL Server",
+      "Terraform",
       "Azure"
     ],
-    "liveLink": "https://app.sensaroli-consulting.net/",
+    "liveLink": "",
     "githubLink": "https://github.com/dev-stacc/OpenPayrun",
-    "isDeployed": true
+    "isDeployed": false
   },
   {
     "title": "AO3 Wrapped",
     "shortDescription": "A Spotify Wrapped-style year-in-review app for Archive of Our Own reading history.",
     "shortDescriptionFr": "Une application de récapitulatif annuel style Spotify Wrapped pour l'historique de lecture sur Archive of Our Own.",
-    "description": "In progress. An open source Spotify Wrapped-style recap app for Archive of Our Own. Readers can see their year in reading stats, top fandoms, most-read authors, and more. Currently built with React and Django, with a planned migration to Nuxt or Next.js for simpler Vercel deployment.",
-    "descriptionFr": "En cours. Une application de récapitulatif open source style Spotify Wrapped pour Archive of Our Own. Les lecteurs peuvent voir leurs statistiques de lecture annuelles, leurs fandoms favoris, leurs auteurs les plus lus, et plus encore. Actuellement développée avec React et Django, avec une migration prévue vers Nuxt ou Next.js.",
+    "description": "In progress. An open source Spotify Wrapped-style recap app for Archive of Our Own. Readers can see their year in reading stats, top fandoms, most-read authors, and more. The backend is an ASP.NET Core API split into clean architecture layers, with EF Core over SQLite and JWT authentication; the frontend is Next.js with Tailwind and DaisyUI.",
+    "descriptionFr": "En cours. Une application de récapitulatif open source style Spotify Wrapped pour Archive of Our Own. Les lecteurs peuvent voir leurs statistiques de lecture annuelles, leurs fandoms favoris, leurs auteurs les plus lus, et plus encore. Le backend est une API ASP.NET Core découpée en couches selon l'architecture propre, avec EF Core sur SQLite et une authentification JWT ; le frontend est en Next.js avec Tailwind et DaisyUI.",
     "stack": [
+      "Next.js",
       "React",
-      "Django",
-      "Python"
+      "TypeScript",
+      "C#",
+      ".NET",
+      "EF Core"
     ],
     "liveLink": "",
     "githubLink": "https://github.com/dev-stacc/ao3-wrapped",
@@ -102,7 +106,62 @@
       "Grafana"
     ],
     "liveLink": "",
-    "githubLink": "https://github.com/dev-stacc/BiggerWorld",
+    "githubLink": "https://github.com/dev-stacc/SmallWorld",
+    "isDeployed": true
+  },
+  {
+    "title": "SCSI Landing Page",
+    "shortDescription": "Bilingual corporate site for Services Conseils Sensaroli Inc., a Québec IT consulting firm. Angular SPA with a runtime French/English toggle, no backend, hosting provisioned as code.",
+    "shortDescriptionFr": "Site corporatif bilingue de Services Conseils Sensaroli Inc., une firme de consultation TI québécoise. SPA Angular avec bascule français/anglais à l'exécution, sans backend, hébergement provisionné en infrastructure as code.",
+    "description": "The web hub for Services Conseils Sensaroli Inc., built on the same freelance contract as OpenPayrun. A pure client-side Angular SPA that presents the company and links out to its other, independently deployed projects. French is the primary language and English is a runtime toggle through Transloco, so a single build serves both and the locale never appears in the URL. Unit tests run on Vitest, and the Azure Static Web Apps hosting was provisioned in OpenTofu rather than hand-configured, making the environment reproducible. The deployment came down after the contract ended; the source stays public.",
+    "descriptionFr": "Le pôle web de Services Conseils Sensaroli Inc., réalisé dans le cadre du même contrat freelance qu'OpenPayrun. Une SPA Angular entièrement côté client qui présente l'entreprise et pointe vers ses autres projets déployés séparément. Le français est la langue principale et l'anglais est une bascule à l'exécution via Transloco : un seul build sert les deux langues et la locale n'apparaît jamais dans l'URL. Les tests unitaires tournent sur Vitest, et l'hébergement Azure Static Web Apps a été provisionné en OpenTofu plutôt que configuré à la main, rendant l'environnement reproductible. Le déploiement a été retiré à la fin du contrat ; le code source reste public.",
+    "stack": [
+      "Angular",
+      "TypeScript",
+      "Tailwind CSS",
+      "Transloco",
+      "Vitest",
+      "OpenTofu",
+      "Azure"
+    ],
+    "liveLink": "",
+    "githubLink": "https://github.com/dev-stacc/SCSI",
+    "isDeployed": false
+  },
+  {
+    "title": "BiggerWorld Search",
+    "shortDescription": "Search frontend for the 4get metasearch instance running on my homelab cluster. Queries 4get's JSON API server-side and renders its own UI, so the backend needs no ingress of its own.",
+    "shortDescriptionFr": "Interface de recherche pour l'instance 4get qui tourne sur mon cluster homelab. Interroge l'API JSON de 4get côté serveur et affiche sa propre interface, ce qui évite d'exposer le backend.",
+    "description": "A Next.js search frontend for the 4get metasearch instance running in my homelab cluster. It calls 4get's versioned /api/v1 JSON API server-side and renders its own UI, so there is no fork of 4get and no scraping of its HTML. Image thumbnails are fetched through a server-side proxy route that forwards to 4get's own proxy, which means nothing on a result page makes the browser contact an upstream image host and 4get can stay cluster-internal with no ingress at all. Web and image verticals are wired; the remaining ones render as inactive tabs. Served over the tailnet.",
+    "descriptionFr": "Une interface de recherche Next.js pour l'instance de métamoteur 4get qui tourne dans mon cluster homelab. Elle interroge l'API JSON versionnée /api/v1 de 4get côté serveur et affiche sa propre interface : aucun fork de 4get, aucun scraping de son HTML. Les vignettes d'images passent par une route proxy côté serveur qui relaie vers le proxy de 4get, de sorte qu'aucune page de résultats ne fait contacter un hôte d'images externe par le navigateur et que 4get peut rester interne au cluster, sans ingress. Les volets web et images sont fonctionnels ; les autres s'affichent en onglets inactifs. Servi sur le tailnet.",
+    "stack": [
+      "Next.js",
+      "React",
+      "TypeScript",
+      "Docker",
+      "Kubernetes",
+      "Tailscale"
+    ],
+    "liveLink": "",
+    "githubLink": "https://github.com/dev-stacc/BiggerWorldSearch",
+    "isDeployed": true
+  },
+  {
+    "title": "BiggerWorld Homepage",
+    "shortDescription": "Status dashboard for my homelab cluster, deliberately running outside it. Host metrics, Flux state, backups and Kubernetes views, authenticated by Tailscale identity.",
+    "shortDescriptionFr": "Tableau de bord d'état de mon cluster homelab, volontairement hébergé en dehors de celui-ci. Métriques des hôtes, état de Flux, sauvegardes et vues Kubernetes, authentifiés par l'identité Tailscale.",
+    "description": "A Next.js dashboard for my homelab, built around one constraint: a dashboard inside the cluster cannot report that the cluster is down. Grafana, Loki and Prometheus all run in k3s, so this runs as a podman container on a separate host and never takes an in-cluster runtime dependency. That constraint drives the rest of the design. Authentication is Tailscale serve identity rather than Authentik, secrets arrive from sops-nix through systemd credentials rather than from Vault at runtime, and host metrics come from per-host stat agents over the tailnet that each keep a rolling window, so the charts survive a cluster outage. The Flux, backup and Kubernetes views double as deep-link targets for ntfy alerts.",
+    "descriptionFr": "Un tableau de bord Next.js pour mon homelab, construit autour d'une contrainte : un tableau de bord situé dans le cluster ne peut pas signaler que le cluster est tombé. Grafana, Loki et Prometheus tournent tous dans k3s, donc celui-ci tourne comme conteneur podman sur un hôte distinct et ne prend jamais de dépendance d'exécution dans le cluster. Cette contrainte dicte le reste de la conception. L'authentification repose sur l'identité Tailscale serve plutôt que sur Authentik, les secrets proviennent de sops-nix via les credentials systemd plutôt que de Vault à l'exécution, et les métriques des hôtes viennent d'agents installés sur chaque hôte via le tailnet, chacun conservant une fenêtre glissante, pour que les graphiques survivent à une panne du cluster. Les vues Flux, sauvegardes et Kubernetes servent aussi de cibles de liens profonds pour les alertes ntfy.",
+    "stack": [
+      "Next.js",
+      "React",
+      "TypeScript",
+      "Podman",
+      "NixOS",
+      "Tailscale"
+    ],
+    "liveLink": "",
+    "githubLink": "",
     "isDeployed": true
   }
 ]
